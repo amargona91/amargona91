@@ -9,7 +9,7 @@ Step By Step Command Line On Termux :
 pkg install php
 pkg install curl
 pkg install git
-git clone https://github.com/sibirubah/gojekin
+git clone https://github.com/amargona91/amargona91
 cd gojekin
 php gojek.php
 masukin nomor hp
