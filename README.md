@@ -10,7 +10,7 @@ pkg install php
 pkg install curl
 pkg install git
 git clone https://github.com/amargona91/amargona91
-cd gojekin
+cd amargona91
 php gojek.php
 masukin nomor hp
 masukin kode verifikasi(OTP)
