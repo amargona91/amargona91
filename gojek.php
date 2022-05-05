@@ -8,11 +8,11 @@ if (!file_exists('token')) {
 include ("curl.php");
 echo "\n";
 echo "\e[94m            NOT SAFE FOR WORK IF2               \n";
-echo "\e[91m    xxx    xxx   xx xxx xx  xxx xx xxx
-echo "\e[91m     xxx  xxx    xx         xxx   xxx
-echo "\e[91m      xxxxxx     cx xx xxx  xxc xxx
-echo "\e[91m     xxx  xxx    cx    xxc  xcx  xxx
-echo "\e[91m    xxx    xxx   cx xx xxx  xcc    xxx
+echo "\e[91m    xxx    xxx   xx xxx xx  xxx xx xxx \n";
+echo "\e[91m     xxx  xxx    xx         xxx   xxx \n";
+echo "\e[91m      xxxxxx     cx xx xxx  xxc xxx \n";
+echo "\e[91m     xxx  xxx    cx    xxc  xcx  xxx \n";
+echo "\e[91m    xxx    xxx   cx xx xxx  xcc    xxx \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
 echo "\e[93m SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER\n";
 echo "\n";
