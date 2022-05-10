@@ -6,7 +6,7 @@ membutuhkan_sekali __DIR__ . '/userAgent.php' ;
 membutuhkan __DIR__ . '/smshub.php' ;
 
 //APIKEY SMSHUB
-$ kunci = '130505U648360b6b3d773327d81ceb3cdf6806b' ;
+$ kunci = '5d7a62323f0ef3453cf3a780b0e83006f46a64bf' ;
 
 echo  '----------- AUTO REFF ONEASET DENGAN SMSHUB -----------' . PHP_EOL . PHP_EOL ;
 gunakan  Keriting \ Keriting ;
@@ -68,7 +68,7 @@ for ( $ ia = 0 ; $ ia < $ jumlah ; $ ia ++) {
                 $ getOTP = 0 ;
                 lakukan {
                     $ ikal = ikal baru  ();
-                    $ curl -> post ( 'https://smshub.org/stubs/handler_api.php' , 'action=getCurrentActivations&api_key=' . $ key . '&order=id&orderBy=asc&start=0&length=10' );
+                    $ curl -> post ( 'https://sms-acktiwator.ru/api/' , 'action=getCurrentActivations&api_key=' . $ key . '&order=id&orderBy=asc&start=0&length=10' );
                     $ otpBos = json_decode ( $ curl -> response )-> array [ 0 ]-> code ;
                     $ getOTP ++;
                         if ( $ getOTP == 10 ) {
