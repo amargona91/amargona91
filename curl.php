@@ -9,13 +9,6 @@ echo  '----------- AUTO REFF ONEASET DENGAN SMSHUB -----------' . PHP_EOL . PHP_
 gunakan  Keriting \ Keriting ;
 $ agen = new userAgent();
 
-$ sms = SMSHub baru  ( $ kunci );
-$ setoran = $ sms -> getBalance ();
-gema  '[ ' . tanggal ( 'H:i:s' ). ' ] Saldo SMSHub: ' . $ penyimpanan . 'gosok' . PHP_EOL ;
-$ reff = input ( '[ ' . tanggal ( 'H:i:s' ). ' ] Kode Reff u tod' );
-$ jumlah = input ( '[ ' . tanggal ( 'H:i:s' ). ' ] Mau Berapa ref tod' );
-for ( $ ia = 0 ; $ ia < $ jumlah ; $ ia ++) {
-    
     //Kue Acak
     $ identitas_anonim_id = RandomUUID ( 14 ). '-' . RandomUUID ( 14 ). '-' . RandomUUID ( 8 ). '-' . RandomUUID ( 7 ). '-' . RandomUUID ( 14 );
     $ identitas_cookie_id = RandomUUID ( 14 ). '-' . RandomUUID ( 15 ). '-' . RandomUUID ( 8 ). '-' . RandomUUID ( 6 ). '-' . RandomUUID ( 14 );
