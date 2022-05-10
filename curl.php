@@ -1,14 +1,24 @@
 <?php
 error_reporting ( 0 );
 date_default_timezone_set ( "Asia/Jakarta" );
+membutuhkan __DIR__ . '/vendor/autoload.php' ;
 membutuhkan_sekali __DIR__ . '/userAgent.php' ;
+membutuhkan __DIR__ . '/smshub.php' ;
 
-//API
+//APIKEY SMSHUB
+$ kunci = '130505U648360b6b3d773327d81ceb3cdf6806b' ;
 
 echo  '----------- AUTO REFF ONEASET DENGAN SMSHUB -----------' . PHP_EOL . PHP_EOL ;
 gunakan  Keriting \ Keriting ;
 $ agen = new userAgent();
 
+$ sms = SMSHub baru  ( $ kunci );
+$ setoran = $ sms -> getBalance ();
+gema  '[ ' . tanggal ( 'H:i:s' ). ' ] Saldo SMSHub: ' . $ penyimpanan . 'gosok' . PHP_EOL ;
+$ reff = input ( '[ ' . tanggal ( 'H:i:s' ). ' ] Kode Reff u tod' );
+$ jumlah = input ( '[ ' . tanggal ( 'H:i:s' ). ' ] Mau Berapa ref tod' );
+for ( $ ia = 0 ; $ ia < $ jumlah ; $ ia ++) {
+    
     //Kue Acak
     $ identitas_anonim_id = RandomUUID ( 14 ). '-' . RandomUUID ( 14 ). '-' . RandomUUID ( 8 ). '-' . RandomUUID ( 7 ). '-' . RandomUUID ( 14 );
     $ identitas_cookie_id = RandomUUID ( 14 ). '-' . RandomUUID ( 15 ). '-' . RandomUUID ( 8 ). '-' . RandomUUID ( 6 ). '-' . RandomUUID ( 14 );
@@ -55,8 +65,16 @@ $ agen = new userAgent();
             if ( $ curl -> response -> success == true ) {
                 echo  ' -> Berhasil Mengirim OTP' . PHP_EOL ;
                 gema  '[ ' . tanggal ( 'H:i:s' ). ' ] Menunggu OTP bos' ;
-                
-                        if 
+                $ getOTP = 0 ;
+                lakukan {
+                    $ ikal = ikal baru  ();
+                    $ curl -> post ( 'https://smshub.org/stubs/handler_api.php' , 'action=getCurrentActivations&api_key=' . $ key . '&order=id&orderBy=asc&start=0&length=10' );
+                    $ otpBos = json_decode ( $ curl -> response )-> array [ 0 ]-> code ;
+                    $ getOTP ++;
+                        if ( $ getOTP == 10 ) {
+                            gema  "." ;
+                            $ getOTP = 0 ;
+                        }
                 
 
 fungsi  RandomDeviceToken ( $ panjang = 10 ) {
