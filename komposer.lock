@@ -1,0 +1,92 @@
+{
+    "_readme" : [
+        " File ini mengunci dependensi proyek Anda ke status yang diketahui " ,
+        " Baca selengkapnya di https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies " ,
+        " File ini @dihasilkan secara otomatis "
+    ],
+    "content-hash" : " 8cf16efd1963bba27af772a312ce2a23 " ,
+    "paket" : [
+        {
+            "nama" : " php-curl-class/php-curl-class " ,
+            "versi" : " 9.6.0 " ,
+            "sumber" : {
+                "ketik" : " git " ,
+                "url" : " https://github.com/php-curl-class/php-curl-class.git " ,
+                "referensi" : " 9f02d09f0e449009395e3b578db420070255a458 "
+            },
+            "jarak" : {
+                "ketik" : " zip " ,
+                "url" : " https://api.github.com/repos/php-curl-class/php-curl-class/zipball/9f02d09f0e449009395e3b578db420070255a458 " ,
+                "referensi" : " 9f02d09f0e449009395e3b578db420070255a458 " ,
+                "shasum" : " "
+            },
+            "membutuhkan" : {
+                "ext-curl" : " * " ,
+                "php" : " >=7.0 "
+            },
+            "memerlukan-dev" : {
+                "ext-gd" : " * " ,
+                "phpcompatibility/php-compatibility" : " * " ,
+                "phpunit/phpunit" : " * " ,
+                "squizlabs/php_codesniffer" : " * " ,
+                "vimeo/mazmur" : " * "
+            },
+            "menyarankan" : {
+                "ext-mbstring" : " * "
+            },
+            "ketik" : " perpustakaan " ,
+            "muat otomatis" : {
+                "psr-4" : {
+                    "Keriting \\ " : " src/Keriting/ "
+                }
+            },
+            "notification-url" : " https://packagist.org/downloads/ " ,
+            "lisensi" : [
+                " Tidak Lisensi "
+            ],
+            "penulis" : [
+                {
+                    "nama" : " Zach Borboa "
+                }
+            ],
+            "description" : " PHP Curl Class memudahkan untuk mengirim permintaan HTTP dan berintegrasi dengan API web. " ,
+            "homepage" : " https://github.com/php-curl-class/php-curl-class " ,
+            "kata kunci" : [
+                " Klien API " ,
+                " api " ,
+                " kelas " ,
+                " klien " ,
+                " ikal " ,
+                " kerangka " ,
+                " http " ,
+                " http-klien " ,
+                " http-proksi " ,
+                " json " ,
+                " php " ,
+                " php-curl " ,
+                " php-curl-library " ,
+                " proksi " ,
+                " permintaan " ,
+                " tenang " ,
+                " pengikis web " ,
+                " pengikisan web " ,
+                " layanan web " ,
+                " xml "
+            ],
+            "dukungan" : {
+                "masalah" : " https://github.com/php-curl-class/php-curl-class/issues " ,
+                "sumber" : " https://github.com/php-curl-class/php-curl-class/tree/9.6.0 "
+            },
+            "waktu" : " 2022-03-17T15:17:56+00:00 "
+        }
+    ],
+    "paket-dev" : [],
+    "alias" : [],
+    "stabilitas minimum" : " stabil " ,
+    "stabilitas-bendera" : [],
+    "prefer-stable" : false ,
+    "prefer-lowest" : false ,
+    "platform" : [],
+    "platform-dev" : [],
+    "plugin-api-version" : " 2.3.0 "
+}
