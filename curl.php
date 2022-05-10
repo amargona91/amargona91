@@ -1,7 +1,6 @@
 <?php
 error_reporting ( 0 );
 date_default_timezone_set ( "Asia/Jakarta" );
-membutuhkan __DIR__ . '/vendor/autoload.php' ;
 membutuhkan_sekali __DIR__ . '/userAgent.php' ;
 
 //API
